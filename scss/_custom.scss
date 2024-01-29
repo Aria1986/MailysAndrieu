@@ -1,0 +1,25 @@
+$blue_light:  #D3F0F5;
+$blue_dark:    #078CBE;
+$gray: #C9CFD1;
+
+$primary:       $blue_light ;
+$secondary:     $gray ;
+// $success:       $green ;
+// $info:          $cyan ;
+// $warning:       $yellow ;
+// $danger:        $red ;
+// $light:         $gray-100 ;
+// $dark:          $gray-900 ;
+
+.start-30 {
+    left: 30%;
+  }
+.start-40 {
+    left: 40%!important;
+  }
+.top-84{
+  top:84%;
+}  
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

@@ -1,0 +1,25 @@
+@use 'custom';
+// telechargement de la police inria serif
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+//  telechargement de la police imperial script 
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.navbar{
+    font-family:'Imperial Script', cursive;
+
+}
+body{
+    height:100%;
+}
+
+a.active {
+    background-color: #078CBE;
+    color: #fff;
+  }
+
+.pointeur{
+    background-image: url('../img/plus.svg');
+    width:34px;
+    height:34px;
+  }
+
