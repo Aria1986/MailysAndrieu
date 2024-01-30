@@ -5,12 +5,28 @@
   left: 30%;
 }
 
-.start-40 {
-  left: 40% !important;
+.start-10 {
+  left: 10%;
+}
+
+.start-20 {
+  left: 20%;
+}
+
+.start-55 {
+  left: 55%;
 }
 
 .top-84 {
   top: 84%;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.top-20 {
+  top: 20%;
 }
 
 /*!
@@ -11875,6 +11891,7 @@ textarea.form-control-lg {
 
 body {
   height: 100%;
+  text-align: center;
 }
 
 a.active {
@@ -11882,10 +11899,35 @@ a.active {
   color: #fff;
 }
 
+#introduction {
+  background-image: url("../img/sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .pointeur {
   background-image: url("../img/plus.svg");
   width: 34px;
   height: 34px;
+}
+
+#woman, .pointeur:hover {
+  cursor: pointer;
+}
+
+.trait {
+  background-color: black;
+  width: 1px;
+  height: 135px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

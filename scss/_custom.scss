@@ -14,12 +14,25 @@ $secondary:     $gray ;
 .start-30 {
     left: 30%;
   }
-.start-40 {
-    left: 40%!important;
+.start-10 {
+    left: 10%;
   }
+.start-20 {
+    left: 20%;
+  }
+.start-55 {
+    left: 55%;
+  }
+
 .top-84{
   top:84%;
 }  
+.top-10{
+  top: 10%;
+}
+.top-20{
+  top: 20%;
+}
 
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
