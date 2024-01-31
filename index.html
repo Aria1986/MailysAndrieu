@@ -8,6 +8,7 @@
     
 </head>
 <body>
+  <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Maïlys Andrieu</a>
@@ -40,8 +41,9 @@
         </div>
     </div>
   </nav>
-  <div id="introduction"  class="m-auto mt-5 rounded p-4 h-100 col-8">
-    <div class="block rounded bg-light text-center opacity-75 col-6 p-2 m-auto">
+  <!-- bloc de presentation -->
+  <div id="introduction"  class="m-auto mt-5 rounded p-4 h-100 sm:col-11 md:col-8">
+    <div class="block rounded bg-light text-center opacity-75 sm:8 md:col-6 p-2 m-auto">
       <h2>Bienvenu dans le monde de Maïlys!</h2>
       <p>
         J’ai été initiée depuis mon jeune âge à l’informatique grace à mon grand-père qui a eu la chance d’être un des premiers ingénieurs informaticiens.
@@ -49,25 +51,30 @@
         Je me suis penché récemment sur le métier de développeuse web qui se trouve rassembler toutes mes compétences et assouvir mon besoin d’apporter quelque chose au monde via mon intellect.</p>
     </div>
   </div>
+  <!-- affichage des projets -->
   <div id="projets">
     <span id="projetCarte" class="position-absolute start-30" style="display:none" ><p>carte intéractive
       html,css</p></span>
   </div>
-  <div id="main" class="position-relative m-auto">
-    <p>body!!</p>
-    <img  src="./assets/img/montagnes_moyen.jpg" alt="paysage_montagnes"/>
-    <div id="carte" class="position-absolute top-50 start-40">
-      <div  class="pointeur "></div>
+  <div id="main" class=" d-flex flex-column m-auto my-5">
+      <p class="m-0">Venez explorer mes aventures de développeuse!</p>
+      <span><img src="./assets/img/fleche.svg" alt="fleche vers le bas"/></span>
+      <!-- décor montagneintéractif -->
+    <div class="mt-3 position-relative m-auto">
+      <img  src="./assets/img/montagnes_moyen.jpg" alt="paysage_montagnes"/>
+      <div id="carte" class="position-absolute top-50 start-40">
+        <div  class="pointeur "></div>
+      </div>
+      <div class="position-absolute top-20 start-10">
+        <div id="" class="pointeur"></div>
+      </div>
+      <div class="position-absolute top-10 start-20">
+        <div id="" class="pointeur"></div>
+      </div>
+      <div class="position-absolute top-50 start-55">
+        <div id="" class="pointeur"></div>
+      </div>
     </div>
-    <div class="position-absolute top-20 start-10">
-      <div id="" class="pointeur"></div>
-    </div>
-    <div class="position-absolute top-10 start-20">
-      <div id="" class="pointeur"></div>
-    </div>
-    <div class="position-absolute top-50 start-55">
-      <div id="" class="pointeur"></div>
-  </div>
     <a id="woman" class="position-absolute top-50 start-20" href="aboutMe.html">
       <h3 class="text-light"> A propos de Maïlys</h3>
         <!-- femme svg -->
@@ -84,9 +91,9 @@
     <div id=""></div>
   </div>
 
- <br>
     <a target="_blank" href="https://icons8.com/icon/91226/plus">Plus</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-  <div class="mt-5 p-3 container-fluid bg-primary">
+  <!-- footer -->
+    <div class="mt-5 p-3 container-fluid bg-primary">
     <div class="p-2 d-flex justify-content-center">
       <a class="mx-4" href="contact.html">Me contacter</a>
       <a href="https://www.linkedin.com/in/ma%C3%AFlys-andrieu-08213684"/>
