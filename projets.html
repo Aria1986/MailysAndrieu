@@ -22,7 +22,7 @@
           <div id="menuHeader" class=" collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto ">
               <li class="nav-item">
-                <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link mx-2 active" aria-current="page" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-2" href="#">A propos</a>
@@ -46,17 +46,30 @@
     </div>
   </nav>
 <h2>Mes projets</h2>
-<div class="d-flex flex-column mt-5">
-    <div class="card m-auto p-4" style="width: 38rem;">
-        <img src="./assets/img/botteaplante_petit.jpg" class="card-img-top" alt="...">
+<div class="d-flex mt-5">
+    <!-- carte projet botte a plante -->
+    <div class="card mx-auto my-4 p-4" style="width: 38rem;">    
         <div class="card-body">
         <h5 class="card-title">Botte à plante</h5>
+        <img src="./assets/img/botteaplante_petit.jpg" class="card-img-top" alt="...">
         <p class="card-text">Projet de fin d’étude: Réalisé de A à Z (en PHP).
             Réalisation d’un cahier des charges, d’une maquette sur Figma ,dossier et powerpoint de presentation.</p>
             <p><u>Outils utilisés:</u> Laravel, Tailwind, MySQL,
                 Gitlab pour les suvegardes régulières,
                 Wamp pour le développement local), Ovh pour l’hébergement</p>
-        <a href="http://www.botteaplante.fr/" class="btn btn-primary">Voir le projet</a>
+        <a href="http://www.botteaplante.fr/" target="_blank" class="btn btn-primary">Voir le projet</a>
+        </div>
+    </div>
+<!-- carte projet recettes -->
+    <div class="card m-auto p-4" style="width: 38rem;">
+        <img src="./assets/img/recettescuisine_petit.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Recettes de cuisine</h5>
+        <p class="card-text">Projet utilisant l’API themealdb pour afficher des recettes.
+            Au chargement de la page  , il apparait 6 cartes recettes aléatoires.
+            Il est possible de chercher une recette par mot cré ou dans une liste déroulante par catégorie ou région.</p>
+            <p><u>Outils utilisés:</u> html,Js themealdb API, gitlab</p>
+        <a href="https://aria1986.github.io/recettescuisine/dist/" target="_blank" class="btn btn-primary">Voir le projet</a>
         </div>
     </div>
 </div>
