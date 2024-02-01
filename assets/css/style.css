@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300&display=swap");
 .start-30 {
   left: 30%;
 }
@@ -11885,15 +11886,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar {
+.navbar-brand {
   font-family: "Imperial Script", cursive;
-  font-size: larger;
-  font-weight: 300;
+  font-size: 30px !important;
+}
+
+.nav-link {
+  font-family: "kreon", serif;
 }
 
 body {
   height: 100%;
   text-align: center;
+  font-family: "Kreon", serif;
 }
 
 a.active {
@@ -11929,7 +11934,20 @@ a.active {
 
 a {
   text-decoration: none;
-  color: black;
+  color: black !important;
+}
+
+@media (min-width: 768px) {
+  .col-sm-8 {
+    float: none !important;
+  }
+  #menuHeader {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+}
+.bg-primary {
+  color: black !important;
 }
 
 /*# sourceMappingURL=style.css.map */

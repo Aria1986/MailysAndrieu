@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
     <title>Accueil</title>
     
 </head>
 <body>
   <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3">
+    <nav  class="navbar navbar-expand-lg navbar-light bg-primary p-3">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Maïlys Andrieu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html">Maïlys Andrieu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
       
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <div id="menuHeader" class=" collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto ">
               <li class="nav-item">
                 <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
@@ -28,13 +31,13 @@
                 <a class="nav-link mx-2" href="#">contact</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
                   Mes projets
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Botteaplante</a></li>
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                  <li><a class="dropdown-item" href="#">A propos</a></li>
+                  <li><a class="dropdown-item" href="#">Me contacter</a></li>
                 </ul>
               </li>
             </ul>
@@ -42,8 +45,8 @@
     </div>
   </nav>
   <!-- bloc de presentation -->
-  <div id="introduction"  class="m-auto mt-5 rounded p-4 h-100 sm:col-11 md:col-8">
-    <div class="block rounded bg-light text-center opacity-75 sm:8 md:col-6 p-2 m-auto">
+  <div id="introduction"  class=" m-auto mt-5 rounded p-4 h-100 col-sm-8 col-12">
+    <div class="rounded bg-light text-center opacity-75 sm:8 md:col-6 p-2 m-auto">
       <h2>Bienvenu dans le monde de Maïlys!</h2>
       <p>
         J’ai été initiée depuis mon jeune âge à l’informatique grace à mon grand-père qui a eu la chance d’être un des premiers ingénieurs informaticiens.
