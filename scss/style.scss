@@ -21,6 +21,7 @@ body{
 
 a.active {
     background-color: #078CBE;
+    border-radius: 50%;
     color: #fff;
   }
 #introduction{
@@ -64,4 +65,9 @@ a{
 }
 .bg-primary{
     color:black!important;
+}
+
+.card{
+    width:380px;
+    height: 480px;
 }

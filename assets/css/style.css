@@ -11903,6 +11903,7 @@ body {
 
 a.active {
   background-color: #078CBE;
+  border-radius: 50%;
   color: #fff;
 }
 
@@ -11941,13 +11942,18 @@ a {
   .col-sm-8 {
     float: none !important;
   }
-  #menuHeader {
+  #navbarNavDropdown {
     display: flex !important;
     justify-content: flex-end;
   }
 }
 .bg-primary {
   color: black !important;
+}
+
+.card {
+  width: 380px;
+  height: 480px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,118 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <title>Accueil</title>
-    
-</head>
-<body>
-  <!-- header -->
-    <nav  class="navbar navbar-expand-md navbar-light bg-primary p-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Maïlys Andrieu</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse position-absolute end-0" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto ">
-              <li class="nav-item">
-                <a class="nav-link mx-2 active" aria-current="page" href="index.html">Accueil</a>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-md navbar-light bg-primary p-3">
+      <a class="navbar-brand" href="index.html">Maïlys Andrieu</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse "
+        id="navbarNavDropdown"
+      >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link mx-2 active"
+              aria-current="page"
+              href="index.html"
+              >Accueil</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="apropos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="contact.html">contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link mx-2 dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Mes projets
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="projets.html">Voir la liste</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="apropos.html">A propos</a>
+              <li>
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="http://www.botteaplante.fr/"
+                  >Botteaplante</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="contact.html">contact</a>
+              <li>
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://aria1986.github.io/recettescuisine/dist/"
+                  >recettes</a
+                >
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
-                  Mes projets
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="projets.html">Voir la liste</a></li>
-                  <li><a class="dropdown-item" href="http://www.botteaplante.fr/">Botteaplante</a></li>
-                  <li><a class="dropdown-item" href="https://aria1986.github.io/recettescuisine/dist/">recettes</a></li>
-                  <li><a class="dropdown-item" href="https://aria1986.github.io/mappingassociations/">carte intéractive</a></li>
-                </ul>
+              <li>
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://aria1986.github.io/mappingassociations/"
+                  >carte intéractive</a
+                >
               </li>
             </ul>
-        </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- bloc de presentation -->
+    <div
+      id="introduction"
+      class="m-auto mt-5 rounded p-4 h-100 col-sm-8 col-12"
+    >
+      <div
+        class="rounded bg-light text-center opacity-75 sm:8 md:col-6 p-2 m-auto"
+      >
+        <h2>Bienvenu dans le monde de Maïlys!</h2>
+        <p>
+          J’ai été initiée depuis mon jeune âge à l’informatique grace à mon
+          grand-père qui a eu la chance d’être un des premiers ingénieurs
+          informaticiens. Dotée d’un esprit logique j’ai effectué des études
+          scientifiques, ma curiosité m’a amené à découvrir divers univers et ma
+          perdévérance à terminer tous mes projets avec succès. Je me suis
+          penché récemment sur le métier de développeuse web qui se trouve
+          rassembler toutes mes compétences et assouvir mon besoin d’apporter
+          quelque chose au monde via mon intellect.
+        </p>
+      </div>
     </div>
-  </nav>
-  <!-- bloc de presentation -->
-  <div id="introduction"  class=" m-auto mt-5 rounded p-4 h-100 col-sm-8 col-12">
-    <div class="rounded bg-light text-center opacity-75 sm:8 md:col-6 p-2 m-auto">
-      <h2>Bienvenu dans le monde de Maïlys!</h2>
-      <p>
-        J’ai été initiée depuis mon jeune âge à l’informatique grace à mon grand-père qui a eu la chance d’être un des premiers ingénieurs informaticiens.
-        Dotée d’un esprit logique j’ai effectué des études scientifiques, ma curiosité m’a amené à découvrir divers univers et ma perdévérance à terminer tous mes projets avec succès.
-        Je me suis penché récemment sur le métier de développeuse web qui se trouve rassembler toutes mes compétences et assouvir mon besoin d’apporter quelque chose au monde via mon intellect.</p>
+    <!-- affichage des projets -->
+    <div id="projets">
+      <span
+        id="projetCarte"
+        class="position-absolute start-30"
+        style="display: none"
+        ><p>carte intéractive html,css</p></span
+      >
     </div>
-  </div>
-  <!-- affichage des projets -->
-  <div id="projets">
-    <span id="projetCarte" class="position-absolute start-30" style="display:none" ><p>carte intéractive
-      html,css</p></span>
-  </div>
-  <div id="main" class=" d-flex flex-column m-auto my-5">
+    <div id="main" class="d-flex flex-column m-auto my-5">
       <p class="m-0">Venez explorer mes aventures de développeuse!</p>
-      <span><img src="./assets/img/fleche.svg" alt="fleche vers le bas"/></span>
+      <span
+        ><img src="./assets/img/fleche.svg" alt="fleche vers le bas"
+      /></span>
       <!-- décor montagneintéractif -->
-    <div class="mt-3 position-relative m-auto">
-      <img  src="./assets/img/montagnes_moyen.jpg" alt="paysage_montagnes"/>
-      <div id="carte" class="position-absolute top-50 start-40">
-        <div  class="pointeur "></div>
+      <div class="mt-3 position-relative m-auto">
+        <img src="./assets/img/montagnes_moyen.jpg" alt="paysage_montagnes" />
+        <div id="carte" class="position-absolute top-20 start-10">
+          <div class="pointeur"></div>
+        </div>
+        <div class="position-absolute top-10 start-20">
+          <div id="" class="pointeur"></div>
+        </div>
+        <div class="position-absolute top-10 start-40">
+          <div id="" class="pointeur"></div>
+        </div>
+        <div class="position-absolute top-50 start-55">
+          <div id="" class="pointeur"></div>
+        </div>
       </div>
-      <div class="position-absolute top-20 start-10">
-        <div id="" class="pointeur"></div>
-      </div>
-      <div class="position-absolute top-10 start-20">
-        <div id="" class="pointeur"></div>
-      </div>
-      <div class="position-absolute top-50 start-55">
-        <div id="" class="pointeur"></div>
-      </div>
-    </div>
-    <a id="woman" class="position-absolute top-50 start-20" href="aboutMe.html">
-      <h3 class="text-light"> A propos de Maïlys</h3>
+      <a
+        id="woman"
+        class="position-absolute top-50 start-20"
+        href="aboutMe.html"
+      >
+        <h3 class="text-light">A propos de Maïlys</h3>
         <!-- femme svg -->
-      <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-        <title>woman</title>
-        <defs>
-          <image  width="16" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAuCAMAAAAWXWmOAAAAAXNSR0IB2cksfwAAAdpQTFRFAAAA/1Uh/1Yi/1Yi/1ch/1ci/1Yh/1Yh/1ci/1Yi/1ci/1gg/1ci/1ch/1Uj/wAA/1Yi/2Uo/5tB/30z/1ch/1ci/1wk/4s6/7VM/7dN/20r/1Yh/1Yi/1gi/3sy/65J/65I/1Yi/1Yi/6JE/1Yi/1ch/1Yh/1ch/1ch/1ch/1ci4Hku4Hgu/1YivzYM0l0f8pcs/LBG0lwf/1chvjYMvjcM/5gAQVGzP1C18pML7pIPP1C0Pk+1P1+/PlG0P1G0P1G1hmty8ZMN7pIQfGd8P1C1SEi2PlG0P1C0PFO2P1GzUVyqUVup/bZOhneOhXaP/LZN/7ZN/7dMtY90pIZ+/7ZN/7dM/LVO/LZO5ada5alas490tJB0eG+UeXGVSFWvR1aw97NR97JQ16Ji2KJioYaAoYZ//7dOX2KiYGKiOk6wPlC1Nki2PlK0P0+zPlG0Pk+1P1C1P1G1PlC1P1G1PlC2PlG1PlC0gnWPfHKTXGGlTFitQ1KzfXOUg3WPPlGz/7ZM/7VI/7VJ/7dM/7ZM/7JA/7ZM/7dM/643/644/7ZN/7dM/6sv/7ZN/7hN/6cm/7dO/7VN/6Qe/7hP/7ZO/6AV/6EV/7RK/7dR/50M/50N/7RK/78//5kEjTGmJAAAAJ50Uk5TADai3/n/v3P89LtO/vgzAdn////VQ///////RIT/////jbn/wtvi6vL7d///f///////gLZT/y+V/PuULQiX/v///////QfAvS4sjYzMyc3L9/zAwvv25ufHx8DA0M/09NnawsLCwlXa2Q38DkFAd3aureTlYuhSrNHk7/3Qq1GQ//+Pf/9+bv//bV3/XEz/Szv/Oir//ykZ//8YCP87k54SAAABgklEQVR4nFXRV1cUQRQE4AtykSAsWVqQjIBkgRVBcAirKKBEJQdBiRIlR4UlSZYo8F+tmW12euqhzq3vZc9sEyEeng+82JvceejDenz9PFzb/xHLBATq2xZkjOCQUOYwGyBcnxGPI0XkE+YoQDTz05hYgcQxxwMSmBOFK8xJgGRm4YZngBQVUgEBKqQBnjOnu3YGcyYZkpWdk5ub8yLLtYny8gvsSEF+3v3HvCx8ZbcXFb+Ws6T0jVZWXlGpOQrfGvud5k6VLqWakmKi9w4VHB+oWrOkhmo/qvtTHdU3NJq7qfkzCfHFhBYhAK0mtBnQbkKHAZ0mdOnQ0G1CTzOgV/3Zr4A+FfoB31T4LmhgUIWhARoesXzcKP2wftwYjVthgiatMEXTVvhJM7Pqnp3Bnzw3v7C4tLy8tLiyulZivMM6nvHXb9SGfJhN3E4nakvCNu6dXdSehD+49/dRBxIOcR8doY4lnOA+PUX9lXCG+/wCdSnhCvf1P9SNhFvcd3eoW4z//C6Hbq/EzdcAAAAASUVORK5CYII="/>
-        </defs>
-        <style>
-        </style>
-        <use id="Background" href="#img1" x="16" y="1"/>
-      </svg>
-    </a>
-    <div id=""></div>
-  </div>
+        <svg
+          version="1.2"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48"
+          height="48"
+        >
+          <title>woman</title>
+          <defs>
+            <image
+              width="16"
+              height="46"
+              id="img1"
+              href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAuCAMAAAAWXWmOAAAAAXNSR0IB2cksfwAAAdpQTFRFAAAA/1Uh/1Yi/1Yi/1ch/1ci/1Yh/1Yh/1ci/1Yi/1ci/1gg/1ci/1ch/1Uj/wAA/1Yi/2Uo/5tB/30z/1ch/1ci/1wk/4s6/7VM/7dN/20r/1Yh/1Yi/1gi/3sy/65J/65I/1Yi/1Yi/6JE/1Yi/1ch/1Yh/1ch/1ch/1ch/1ci4Hku4Hgu/1YivzYM0l0f8pcs/LBG0lwf/1chvjYMvjcM/5gAQVGzP1C18pML7pIPP1C0Pk+1P1+/PlG0P1G0P1G1hmty8ZMN7pIQfGd8P1C1SEi2PlG0P1C0PFO2P1GzUVyqUVup/bZOhneOhXaP/LZN/7ZN/7dMtY90pIZ+/7ZN/7dM/LVO/LZO5ada5alas490tJB0eG+UeXGVSFWvR1aw97NR97JQ16Ji2KJioYaAoYZ//7dOX2KiYGKiOk6wPlC1Nki2PlK0P0+zPlG0Pk+1P1C1P1G1PlC1P1G1PlC2PlG1PlC0gnWPfHKTXGGlTFitQ1KzfXOUg3WPPlGz/7ZM/7VI/7VJ/7dM/7ZM/7JA/7ZM/7dM/643/644/7ZN/7dM/6sv/7ZN/7hN/6cm/7dO/7VN/6Qe/7hP/7ZO/6AV/6EV/7RK/7dR/50M/50N/7RK/78//5kEjTGmJAAAAJ50Uk5TADai3/n/v3P89LtO/vgzAdn////VQ///////RIT/////jbn/wtvi6vL7d///f///////gLZT/y+V/PuULQiX/v///////QfAvS4sjYzMyc3L9/zAwvv25ufHx8DA0M/09NnawsLCwlXa2Q38DkFAd3aureTlYuhSrNHk7/3Qq1GQ//+Pf/9+bv//bV3/XEz/Szv/Oir//ykZ//8YCP87k54SAAABgklEQVR4nFXRV1cUQRQE4AtykSAsWVqQjIBkgRVBcAirKKBEJQdBiRIlR4UlSZYo8F+tmW12euqhzq3vZc9sEyEeng+82JvceejDenz9PFzb/xHLBATq2xZkjOCQUOYwGyBcnxGPI0XkE+YoQDTz05hYgcQxxwMSmBOFK8xJgGRm4YZngBQVUgEBKqQBnjOnu3YGcyYZkpWdk5ub8yLLtYny8gvsSEF+3v3HvCx8ZbcXFb+Ws6T0jVZWXlGpOQrfGvud5k6VLqWakmKi9w4VHB+oWrOkhmo/qvtTHdU3NJq7qfkzCfHFhBYhAK0mtBnQbkKHAZ0mdOnQ0G1CTzOgV/3Zr4A+FfoB31T4LmhgUIWhARoesXzcKP2wftwYjVthgiatMEXTVvhJM7Pqnp3Bnzw3v7C4tLy8tLiyulZivMM6nvHXb9SGfJhN3E4nakvCNu6dXdSehD+49/dRBxIOcR8doY4lnOA+PUX9lXCG+/wCdSnhCvf1P9SNhFvcd3eoW4z//C6Hbq/EzdcAAAAASUVORK5CYII="
+            />
+          </defs>
+          <style></style>
+          <use id="Background" href="#img1" x="16" y="1" />
+        </svg>
+      </a>
+      <div id=""></div>
+    </div>
 
-    <a target="_blank" href="https://icons8.com/icon/91226/plus">Plus</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
- 
+    <a target="_blank" href="https://icons8.com/icon/91226/plus">Plus</a> icon
+    by <a target="_blank" href="https://icons8.com">Icons8</a>
+
     <!-- footer -->
     <div class="mt-5 p-3 container-fluid bg-primary">
-    <div class="p-2 d-flex justify-content-center">
-      <a class="mx-5 mt-3" href="contact.html">Me contacter</a>
-      <a href="https://www.linkedin.com/in/ma%C3%AFlys-andrieu-08213684"/>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-      </a>
+      <div class="p-2 d-flex justify-content-center">
+        <a class="mx-5 mt-3" href="contact.html">Me contacter</a>
+        <a href="https://www.linkedin.com/in/ma%C3%AFlys-andrieu-08213684">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="31"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="p-2 mt-2 d-flex justify-content-center">
+        <img src="./assets/img/copyright.svg" alt="copyright" />
+        MailysAndrieu
+      </div>
     </div>
-    <div class="p-2 mt-2 d-flex justify-content-center">
-      <img src="./assets/img/copyright.svg" alt="copyright"/>
-      MailysAndrieu
-    </div>
-  </div>
- <script src="assets/js/index.js" ></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
-
-
-
