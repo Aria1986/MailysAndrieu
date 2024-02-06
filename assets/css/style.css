@@ -11914,7 +11914,7 @@ a.active {
 }
 
 #projets {
-  height: 50px;
+  height: 40px;
 }
 
 #montagne {
@@ -11937,7 +11937,7 @@ a.active {
 .trait {
   background-color: black;
   width: 1px;
-  height: 135px;
+  height: 125px;
   display: block;
   position: absolute;
   left: 50%;
