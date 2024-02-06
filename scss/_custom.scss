@@ -5,7 +5,7 @@ $gray: #C9CFD1;
 $primary:       $blue_light ;
 $secondary:     $gray ;
 // $success:       $green ;
-// $info:          $cyan ;
+$info:          $blue_dark ;
 // $warning:       $yellow ;
 // $danger:        $red ;
 // $light:         $gray-100 ;
@@ -17,8 +17,8 @@ $secondary:     $gray ;
 .start-10 {
     left: 10%;
   }
-.start-20 {
-    left: 20%;
+.start-30 {
+    left: 30%;
   }
 .start-55 {
     left: 55%;
@@ -27,8 +27,8 @@ $secondary:     $gray ;
 .top-84{
   top:84%;
 }  
-.top-10{
-  top: 10%;
+.top-15{
+  top: 15%;
 }
 .top-20{
   top: 20%;

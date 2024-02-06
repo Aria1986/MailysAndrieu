@@ -30,6 +30,15 @@ a.active {
     background-repeat: no-repeat;
     
 }
+#projets{
+    height:50px;
+}
+#montagne{
+    background-image: url("../img/montagnes_petit.jpg");
+    background-repeat: no-repeat;
+    width:360px;
+    height:480px;
+}
 .pointeur{
     background-image: url('../img/plus.svg');
     width:34px;
@@ -69,5 +78,5 @@ a{
 
 .card{
     width:380px;
-    height: 480px;
+    height: 480;
 }
